@@ -13,4 +13,8 @@ The primary goal of this research is to advance the state of autonomous vehicle 
 * To develop and improve autonomous driving technologies that allow vehicles to accurately perceive the environment, make reliable decisions, and navigate in complex settings.
 * To enhance the safety and reliability of autonomous vehicles, including fault detection and fault-tolerant systems.
 
+## 3. System Components
+
+The project utilizes the following key hardware and software components:
+
 
