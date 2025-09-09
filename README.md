@@ -37,5 +37,9 @@ The research is conducted through a combination of theoretical analysis, simulat
 * **Algorithm Development:** Based on theoretical analysis and collected data, we developed and refined algorithms for perception, decision-making, and vehicle control.
 * **Prototyping and Testing:** We built a physical model and conducted tests in a real-world environment to validate the developed algorithms.
 
+## 5. Project Members
 
+* **Lê Hoàng Tiến** - 21145617 (Leader)
+* **Lê Hồ Minh Khoa** - 21145019
+* **Nguyễn Lý Tùng Lâm** - 21145591
 
