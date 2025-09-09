@@ -17,4 +17,16 @@ The primary goal of this research is to advance the state of autonomous vehicle 
 
 The project utilizes the following key hardware and software components:
 
+### 3.1. Hardware Components
+
+* **Central Processing Unit (CPU):** Raspberry Pi 4B
+* **Robot Platform:** Rosmaster X3
+* **Sensors:** YDLIDAR X3 LiDAR
+
+### 3.2. Software Components
+
+* **Operating System:** ROS (Robot Operating System)
+* **Programming Languages:** Python, C++
+* **Libraries:** ROS Packages (e.g., `rospy`, `roscpp`)
+
 
