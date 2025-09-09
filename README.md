@@ -29,4 +29,13 @@ The project utilizes the following key hardware and software components:
 * **Programming Languages:** Python, C++
 * **Libraries:** ROS Packages (e.g., `rospy`, `roscpp`)
 
+## 4. Research Methodology
+
+The research is conducted through a combination of theoretical analysis, simulation, and practical experimentation. The key steps are as follows:
+
+* **Literature Review:** We conducted an extensive review of existing literature, industry reports, and patents related to autonomous vehicles to identify the current state of the art and research gaps.
+* **Algorithm Development:** Based on theoretical analysis and collected data, we developed and refined algorithms for perception, decision-making, and vehicle control.
+* **Prototyping and Testing:** We built a physical model and conducted tests in a real-world environment to validate the developed algorithms.
+
+
 
