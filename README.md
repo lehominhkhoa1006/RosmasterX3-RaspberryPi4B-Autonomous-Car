@@ -23,3 +23,12 @@ The project aimed to:
 - Develop a ROS 2 robot description representing the four-wheel mecanum vehicle and onboard sensor locations.
 - Configure a visualization workflow using URDF, robot state publishing, joint state control, and RViz.
 - Demonstrate the relationship between the physical robot platform and its ROS 2 simulation model.
+
+## Development Process
+
+The project combined physical robot assembly with software development and ROS 2 simulation. The team worked together to assemble the ROSMASTER X3 platform, configure its hardware, and develop the corresponding robot model and visualization workflow.
+
+<p align="center">
+  <img src="images/01_team_development.png" alt="Team Development" width="400"><br>
+  <em>Figure 2. Team members working together during the physical assembly and development of the ROSMASTER X3 platform.</em>
+</p>
