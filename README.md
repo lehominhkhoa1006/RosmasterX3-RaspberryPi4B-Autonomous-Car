@@ -2,7 +2,7 @@
 A ROS 2-based autonomous vehicle project built around the ROSMASTER X3 platform, Raspberry Pi 4B, and YDLIDAR X3, combining physical robot assembly with custom robot modeling and RViz-based simulation.
 
 <p align="center">
-  <img src="images/03_robot_completed.png" alt="Completed ROSMASTER X3 Autonomous Car" width="500">
+  <img src="images/03_robot_completed.png" alt="Completed ROSMASTER X3 Autonomous Car" width="400">
 </p>
 
 ## Overview
