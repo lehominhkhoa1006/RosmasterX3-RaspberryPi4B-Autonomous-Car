@@ -77,3 +77,71 @@ The robot joints can also be adjusted interactively through the Joint State Publ
   <img src="images/06_joint_state_publisher.png" alt="Joint State Publisher" width="400"><br>
   <em>Figure 6. Joint State Publisher interface used to interactively control the four wheel joints.</em>
 </p>
+
+## Project Contribution
+
+The project combined an off-the-shelf ROSMASTER X3 robotic platform with a custom ROS 2 robot description and visualization package.
+
+The main project-specific work presented in this repository includes:
+
+- Building the physical ROSMASTER X3 platform with its mecanum-wheel configuration.
+- Creating the `mybot` ROS 2 package for the robot model.
+- Defining the robot structure, wheel joints, and sensor mounting locations in URDF.
+- Preparing the corresponding mesh assets for the robot body and sensors.
+- Configuring ROS 2 launch, robot-state publishing, and RViz visualization.
+- Demonstrating interactive joint control of the four mecanum wheels.
+
+The repository intentionally excludes the original vendor workspace and third-party ROS packages used as the underlying platform software.
+
+## Physical Robot Demonstration
+
+The project also included work with the physical ROSMASTER X3 platform and its onboard YDLIDAR X3 sensor.
+
+The following video shows the assembled robot from above while the LiDAR operates continuously. The vehicle remains stationary in this demonstration.
+
+[Watch the physical robot and LiDAR demonstration](./media/real_robot_lidar_demo.mp4)
+
+## Simulation Demonstration
+
+The simulation workflow was demonstrated by launching the custom `mybot` ROS 2 package, opening the RViz environment, and interacting with the four wheel joints through the Joint State Publisher interface.
+
+The demonstration shows the robot model being loaded into the 3D visualization environment and the following wheel joints being adjusted individually:
+
+- `front_right_joint`
+- `front_left_joint`
+- `back_right_joint`
+- `back_left_joint`
+
+[Watch the ROS 2 simulation demonstration](./media/simulation_demo.mp4)
+
+## Repository Structure
+
+```text
+RosmasterX3-RaspberryPi4B-Autonomous-Car/
+├── mybot/
+│   ├── launch/
+│   │   └── mybot.launch.py
+│   ├── meshes/
+│   │   ├── mecanum/
+│   │   │   ├── back_left_wheel.STL
+│   │   │   ├── back_right_wheel.STL
+│   │   │   ├── base_link.STL
+│   │   │   ├── front_left_wheel.STL
+│   │   │   └── front_right_wheel.STL
+│   │   └── sensor/
+│   │       ├── camera_link.STL
+│   │       └── laser_link.STL
+│   ├── rviz/
+│   │   └── rviz_basic_settings.rviz
+│   ├── urdf/
+│   │   └── mybot.urdf
+│   ├── CMakeLists.txt
+│   └── package.xml
+├── media/
+│   ├── real_robot_lidar_demo.mp4
+│   └── simulation_demo.mp4
+├── report/
+│   ├── RosmasterX3_Project_Document.pdf
+│   └── RosmasterX3_Project_Presentation.pdf
+└── README.md
+```
