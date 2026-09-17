@@ -32,3 +32,48 @@ The project combined physical robot assembly with software development and ROS 2
   <img src="images/01_team_development.png" alt="Team Development" width="400"><br>
   <em>Figure 2. Team members working together during the physical assembly and development of the ROSMASTER X3 platform.</em>
 </p>
+
+## Hardware Platform
+
+The physical platform used in the project was the ROSMASTER X3, a mecanum-wheel mobile robot equipped with a Raspberry Pi 4B computing platform and a YDLIDAR X3 sensor. The project documentation identifies the X3 LiDAR, Raspberry Pi 4B, and expansion board as the main components of the platform. :contentReference[oaicite:0]{index=0}
+
+The ROSMASTER X3 uses four mecanum wheels, allowing the robot to move in multiple directions. The Raspberry Pi 4B serves as the main onboard computing platform, while the YDLIDAR X3 provides LiDAR sensing for the robot system. The hardware platform also includes an expansion board and the supporting mechanical and electrical components required to assemble the robot. :contentReference[oaicite:1]{index=1}
+
+<p align="center">
+  <img src="images/02_robot_assembly.png" alt="ROSMASTER X3 Assembly" width="400"><br>
+  <em>Figure 3. Physical assembly of the ROSMASTER X3 platform and its main components.</em>
+</p>
+
+## ROS 2 Robot Model
+
+To support the simulation and visualization workflow, the project includes a custom ROS 2 package named `mybot`. The package contains a URDF-based robot description representing the four mecanum wheels, the LiDAR and camera mounting locations, and the corresponding robot geometry.
+
+The robot description defines the chassis, four continuous wheel joints, an IMU link, a LiDAR link, and a camera link. The geometry is connected through the corresponding mesh files in the `meshes` directory. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+
+The package also includes a ROS 2 launch file that loads the robot description, starts the joint-state and robot-state publishers, and launches RViz for visualization. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+
+<p align="center">
+  <img src="images/04_ros2_launch.png" alt="ROS 2 Launch Process" width="400"><br>
+  <em>Figure 4. ROS 2 launch process initializing the custom robot description, state publishers, and RViz.</em>
+</p>
+
+## Simulation and Visualization
+
+The simulation workflow uses RViz to visualize the robot model and its coordinate frames. The RViz configuration enables the RobotModel, TF, and Grid displays, with `base_link` used as the fixed reference frame. :contentReference[oaicite:7]{index=7}
+
+<p align="center">
+  <img src="images/05_rviz_robot_model.png" alt="RViz Robot Model" width="400"><br>
+  <em>Figure 5. RViz visualization of the four-wheel mecanum robot model and coordinate frames.</em>
+</p>
+
+The robot joints can also be adjusted interactively through the Joint State Publisher interface. In the simulation demonstration, the four wheel joints are individually exposed for manual adjustment:
+
+- `front_right_joint`
+- `front_left_joint`
+- `back_right_joint`
+- `back_left_joint`
+
+<p align="center">
+  <img src="images/06_joint_state_publisher.png" alt="Joint State Publisher" width="400"><br>
+  <em>Figure 6. Joint State Publisher interface used to interactively control the four wheel joints.</em>
+</p>
