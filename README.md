@@ -159,7 +159,7 @@ This project was developed by Group 4 for the Automotive Electrical and Electron
 **Team Leader**
 - Lê Hoàng Tiến
 
-**Team Members**
+**Other Team Members**
 - Lê Hồ Minh Khoa
 - Nguyễn Lý Tùng Lâm
 
