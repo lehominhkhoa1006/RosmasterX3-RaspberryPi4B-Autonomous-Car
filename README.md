@@ -13,3 +13,13 @@ This project was developed as a group project for the Automotive Electrical and 
 The project explored an autonomous-car platform built around the ROSMASTER X3, with a Raspberry Pi 4B as the main computing platform and a YDLIDAR X3 as a key sensing component. The group assembled and worked with the physical robot platform, while also developing a ROS 2 robot description and visualization environment for simulation.
 
 The custom ROS 2 package includes a robot model with four mecanum wheels, LiDAR and camera representations, URDF-based robot description, launch configuration, and RViz visualization. The project was demonstrated through both the physical robot platform and a ROS 2/RViz simulation workflow.
+
+## Project Objectives
+
+The project aimed to:
+
+- Explore the architecture and operation of the ROSMASTER X3 autonomous vehicle platform.
+- Assemble and work with the physical robot platform and its main hardware components.
+- Develop a ROS 2 robot description representing the four-wheel mecanum vehicle and onboard sensor locations.
+- Configure a visualization workflow using URDF, robot state publishing, joint state control, and RViz.
+- Demonstrate the relationship between the physical robot platform and its ROS 2 simulation model.
