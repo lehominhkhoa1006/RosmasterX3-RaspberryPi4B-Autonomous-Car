@@ -117,7 +117,12 @@ The demonstration shows the robot model being loaded into the 3D visualization e
 - `back_right_joint`
 - `back_left_joint`
 
-[Watch the ROS 2 simulation demonstration](./media/simulation_demo.mp4)
+<p align="center">
+  <img src="media/simulation_preview.gif" alt="ROS 2 and RViz Simulation Demonstration" width="400"><br>
+  <em>Figure 8. ROS 2 and RViz simulation showing interactive adjustment of the four mecanum wheel joints.</em>
+</p>
+
+[Watch the full ROS 2 simulation demonstration](./media/simulation_demo.mp4)
 
 ## Repository Structure
 
