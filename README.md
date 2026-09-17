@@ -145,3 +145,39 @@ RosmasterX3-RaspberryPi4B-Autonomous-Car/
 │   └── RosmasterX3_Project_Presentation.pdf
 └── README.md
 ```
+## Documentation
+
+The complete project documentation and presentation are provided in the `report` directory.
+
+- [Project Documentation](./report/RosmasterX3_Project_Document.pdf)
+- [Project Presentation](./report/RosmasterX3_Project_Presentation.pdf)
+
+## Team
+
+This project was developed by Group 4 for the Automotive Electrical and Electronic Systems course at Ho Chi Minh City University of Technology and Education (HCMUTE) during the 2023–2024 academic year.
+
+**Team Leader**
+- Lê Hoàng Tiến
+
+**Team Members**
+- Lê Hồ Minh Khoa
+- Nguyễn Lý Tùng Lâm
+
+**Guiding Lecturer**
+- Assoc. Prof. Đỗ Văn Dũng
+
+## Limitations and Future Improvements
+
+The current repository focuses on the physical ROSMASTER X3 platform, its custom robot description, and the ROS 2/RViz simulation and visualization workflow. It does not include the full vendor software stack or demonstrate a complete autonomous-navigation system.
+
+Potential future improvements include:
+
+- Integrating autonomous navigation and path-planning capabilities into the ROS 2 system.
+- Adding SLAM and localization workflows using the LiDAR sensor.
+- Incorporating sensor data into simulation for more realistic robot-environment interaction.
+- Extending the robot model and simulation environment for more advanced autonomous-driving experiments.
+- Validating the developed ROS 2 workflow through additional physical-robot experiments.
+
+## License
+
+This repository contains project-specific materials developed for an undergraduate course project. Third-party software and vendor components are not redistributed as part of this repository.
