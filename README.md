@@ -147,14 +147,20 @@ RosmasterX3-RaspberryPi4B-Autonomous-Car/
 │   │   └── mybot.urdf
 │   ├── CMakeLists.txt
 │   └── package.xml
+│
 ├── media/
 │   ├── real_robot_lidar_demo.mp4
-│   └── simulation_demo.mp4
+│   ├── real_robot_lidar_preview.gif
+│   ├── simulation_demo.mp4
+│   └── simulation_preview.gif
+│
 ├── report/
 │   ├── RosmasterX3_Project_Document.pdf
 │   └── RosmasterX3_Project_Presentation.pdf
+│
 └── README.md
 ```
+
 ## Documentation
 
 The complete project documentation and presentation are provided in the `report` directory.
