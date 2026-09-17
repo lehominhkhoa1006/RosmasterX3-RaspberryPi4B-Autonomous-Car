@@ -3,8 +3,8 @@ A ROS 2-based autonomous vehicle project built around the ROSMASTER X3 platform,
 
 <p align="center">
   <img src="images/03_robot_completed.png" alt="Completed ROSMASTER X3 Autonomous Car" width="400">
+  <em>Figure 1. Completed ROSMASTER X3 platform assembled for the project physical implementation and development.</em>
 </p>
-<em>Figure 1. Completed ROSMASTER X3 platform assembled for the project physical implementation and development.</em>
 
 ## Overview
 
