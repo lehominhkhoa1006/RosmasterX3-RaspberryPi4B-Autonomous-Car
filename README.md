@@ -97,9 +97,14 @@ The repository intentionally excludes the original vendor workspace and third-pa
 
 The project also included work with the physical ROSMASTER X3 platform and its onboard YDLIDAR X3 sensor.
 
-The following video shows the assembled robot from above while the LiDAR operates continuously. The vehicle remains stationary in this demonstration.
+The following demonstration shows the assembled robot from above while the YDLIDAR X3 operates continuously. The vehicle remains stationary during this demonstration.
 
-[Watch the physical robot and LiDAR demonstration](./media/real_robot_lidar_demo.mp4)
+<p align="center">
+  <img src="media/real_robot_lidar_preview.gif" alt="Physical ROSMASTER X3 and LiDAR Demonstration" width="400"><br>
+  <em>Figure 7. Physical ROSMASTER X3 platform with the YDLIDAR X3 operating during a stationary demonstration.</em>
+</p>
+
+[Watch the full physical robot and LiDAR demonstration](./media/real_robot_lidar_demo.mp4)
 
 ## Simulation Demonstration
 
